@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, textarea, figure {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "冬青黑体",Arial;
+  background-color: #999; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+img {
+  border: none; }
+
+.main {
+  width: 1000px;
+  height: 564px;
+  margin: 0 auto; }
+  .main #regForm {
+    height: 100%;
+    height: 564px; }
+    .main #regForm .loginTab {
+      width: 310px;
+      position: relative;
+      margin: 0 auto; }
+      .main #regForm .loginTab tbody .logoTr {
+        valign: center;
+        align: middle; }
+        .main #regForm .loginTab tbody .logoTr td {
+          height: 150px; }
+          .main #regForm .loginTab tbody .logoTr td img {
+            display: block;
+            margin: 0 auto; }
+      .main #regForm .loginTab tbody tr td {
+        width: 300px;
+        height: 60px; }
+        .main #regForm .loginTab tbody tr td .loginUser {
+          position: relative;
+          height: 50px;
+          margin-top: 10px;
+          vertical-align: middle;
+          line-height: 50px;
+          background-color: #ccc; }
+          .main #regForm .loginTab tbody tr td .loginUser img {
+            width: 50px;
+            height: 50px; }
+          .main #regForm .loginTab tbody tr td .loginUser input {
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            display: inline-block;
+            width: 235px;
+            height: 30px;
+            padding-left: 10px;
+            border: none;
+            border-left: 1px solid white;
+            background-color: #cccccc;
+            outline: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 900; }
+            .main #regForm .loginTab tbody tr td .loginUser input::-webkit-input-placeholder {
+              color: white; }
+        .main #regForm .loginTab tbody tr td .loginLC {
+          width: 100%;
+          height: 100%;
+          border: none;
+          resize: none;
+          outline: none;
+          font-size: 18px;
+          font-weight: 900;
+          color: white;
+          background-color: #25292e;
+          cursor: pointer; }
+      .main #regForm .loginTab tbody tr .autoLogin {
+        width: 224px;
+        height: 18px;
+        line-height: 18px;
+        padding-left: 5px;
+        font-size: 13px;
+        color: white; }
+        .main #regForm .loginTab tbody tr .autoLogin input {
+          vertical-align: middle;
+          resize: none;
+          outline: none; }
+      .main #regForm .loginTab tbody tr .forgetPW {
+        padding: 8px 0;
+        height: 18px;
+        font-size: 13px;
+        text-indent: 61px; }
+        .main #regForm .loginTab tbody tr .forgetPW a {
+          color: white; }
+      .main #regForm .loginTab tbody tr .QQLogin {
+        padding-top: 10px;
+        height: 22px; }
+      .main #regForm .loginTab tbody tr .regLC {
+        padding-top: 10px;
+        height: 22px; }
+        .main #regForm .loginTab tbody tr .regLC a {
+          color: white;
+          font-size: 14px;
+          font-weight: 900;
+          margin-left: 64px;
+          border-bottom: 1px solid white; }
