@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:"冬青黑体",Arial;
+    background-color: #999;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+img{
+    border:none;
+}
+.main{
+    width:1000px;
+    height:683px;
+    margin:0 auto;
+    #regForm{
+        width:100%;
+        display: inline-block;
+        color:#333;
+        .regTable{
+            position: relative;
+            width:565px;
+            margin:0 auto;
+            border-spacing: 10px;
+            border-collapse: separate;
+            padding-bottom:40px;
+            tbody{
+                tr{
+                    &:nth-child(1){
+                        valign:center;
+                        align:middle;
+                        td{
+                            cospan:3;
+                            height:160px;
+                        }
+                    }
+                    th{
+                        display: block;
+                        float: left;
+                        width:70px;
+                        height:50px;
+                        text-align: left;
+                        padding-right: 20px;
+                    }
+                    .regLabel{
+                        line-height: 50px;
+                        font-szie:14px;
+                        font-weight: bold;
+                        color:white;
+                        opacity: .9;
+                    }
+                    td{
+                        display: block;
+                        float: left;
+                        width:320px;
+                        height:50px;
+                        line-height: 50px;
+                        position: relative;
+                        input{
+                            height:50px;
+                            border: none;
+                            background-color: #ccc;
+                            padding-left:20px;
+                            color:white;
+                            font-weight: 900;
+                            outline: none;
+                            &::-webkit-input-placeholder{
+                                color:white;
+                            }
+                        }
+                        .regInputPhone{
+                            width:300px;
+                        }
+                        .regInputMa{
+                            width:245px;
+                        }
+                        .regInputPw{
+                            width:300px;
+                        }
+                        .agreenLC{
+                            .vertPos{
+                                vertical-align: middle;
+                            }
+                            a{
+                                font-size:12px;
+                                color:#2579cc;
+                            }
+                            span{
+                                font-size: 12px;
+                                color: white;
+                            }
+                        }
+                        .regBtn{
+                            width:300px;
+                            padding-left: 0;
+                            background-color: #25292e;
+                            font-size: 18px;
+                            cursor: pointer;
+                        }
+                        #loginBtn{
+                            margin-left:100px;
+                            color:white;
+                            font-weight: 900;
+                            font-size:14px;
+                            line-height: 20px;
+                            border-bottom: 1px solid #cecece;
+                        }
+                    }
+                    .yzmBox{
+                        position: absolute;
+                        left:384px;
+                        top:241px;
+                        display: inline-block;
+                        width:110px;
+                        height:46px;
+                        border:2px solid black;
+                        background-color: white;
+                        line-height: 46px;
+                        font-size: 24px;
+                        font-style: italic;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+        }
+    }
+}
+#regP{
+    position: absolute;
+    left:323px;
+    top:0;
+    z-index: 99;
+    background-color: white;
+    width:150px;
+    font-size:10px;
+    text-align: center;
+    color:red;
+    display: none;
+}
+#regM{
+    position: absolute;
+    left:402px;
+    top:0;
+    z-index: 99;
+    background-color: white;
+    width:150px;
+    font-size:10px;
+    text-align: center;
+    color:red;
+    display: none;
+}
+#regPW1{
+    position: absolute;
+    left:324px;
+    top:0;
+    z-index: 99;
+    background-color: white;
+    width:150px;
+    font-size:10px;
+    text-align: center;
+    color:red;
+    display: none;
+}
+#regPW2{
+    position: absolute;
+    left:324px;
+    top:0;
+    z-index: 99;
+    background-color: white;
+    width:150px;
+    font-size:10px;
+    text-align: center;
+    color:red;
+    display: none;
+}

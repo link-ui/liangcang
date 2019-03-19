@@ -1,0 +1,25 @@
+$(function(){
+    //手机二维码
+    $("#phone").mouseenter(function(){
+        $(".phonema").css({
+            display:"block"
+        });
+    });
+    $("#phone").mouseleave(function(){
+        $(".phonema").css({
+            display:"none"
+        });
+    });
+
+    //微信二维码
+    $("#weixin").mouseenter(function(){
+        $("#weixinPig").css({
+            display:"block"
+        });
+    });
+    $("#weixin").mouseleave(function(){
+        $("#weixinPig").css({
+            display:"none"
+        });
+    });
+});

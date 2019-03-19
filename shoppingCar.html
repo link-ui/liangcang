@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="shortcut icon" href="font/favicon.ico"/>
+    <link rel="stylesheet" href="css/shoppingCar.css"/>
+</head>
+<body>
+<!--top-->
+    <div class="top">
+
+    </div>
+
+<!--main-->
+    <div id="main">
+        <div class="shoppingStep1">
+            | <div class="item"><span class="txt chk">购物车</span></div>  | <div class="item"><span class="txt">付款</span></div>  |
+        </div>
+        <div id="shoppingCarList">
+            <table class="carTab">
+                <tbody>
+                    <tr>
+                        <th class="txt1" width="110"><input type="checkbox" id="checkAll" class="chkbox" style="margin-left:12px;">全选</th>
+                        <th width="300">良品</th>
+                        <th width="120">数量</th>
+                        <th width="160">单价（元）</th>
+                        <th width="160">小计（元）</th>
+                        <th>操作</th>
+                    </tr>
+                    <!--<tr class="list2">-->
+                        <!--<td valign="top"><input type="checkbox" class="chkbox" onclick=""/><a href="" class="imgcon"><img src="img/goods1.jpg" alt="#"/></a></td>-->
+                        <!--<td class="txt1"><p class="t"><a href="">圆点蓝牙机械键盘 | 复</a></p><p class="b">颜色：蓝色；</p></td>-->
+                        <!--<td><span class="opt"><img src="img/jian.jpg" alt="#"/></span><input type="text" class="num2" value="1"/><span class="opt"><img src="img/jia.jpg" alt="#"/></span></td>-->
+                        <!--<td>399.00</td>-->
+                        <!--<td>399.00</td>-->
+                        <!--<td><a href="javascript:;" class="blue">删除</a></td>-->
+                    <!--</tr>-->
+                    <!--<tr class="list2">-->
+                        <!--<td valign="top"><input type="checkbox" class="chkbox" onclick=""/><a href="" class="imgcon"><img src="img/goods1.jpg" alt="#"/></a></td>-->
+                        <!--<td class="txt1"><p class="t"><a href="">圆点蓝牙机械键盘 | 复</a></p><p class="b">颜色：蓝色；</p></td>-->
+                        <!--<td><span class="opt"><img src="img/jian.jpg" alt="#"/></span><input type="text" class="num2" value="1"/><span class="opt"><img src="img/jia.jpg" alt="#"/></span></td>-->
+                        <!--<td>399.00</td>-->
+                        <!--<td>399.00</td>-->
+                        <!--<td><a href="javascript:;" class="blue">删除</a></td>-->
+                    <!--</tr>-->
+                </tbody>
+            </table>
+        </div>
+        <div class="shoppingStep1">
+            <form action="" method="post" name="carForm" id="carForm">
+                <p>良品总价 / ￥<span class="price"></span></p>
+                <p><input type="button" class="checkBtn" value="立即结算"/></p>
+                <fieldset>
+                    <legend>
+                        <a href="shoplist.html">继续购物</a>
+                    </legend>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+<!--footer-->
+    <div class="footer">
+
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/shoppingCar.js"></script>

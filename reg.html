@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>良仓注册</title>
+    <link rel="shortcut icon" href="font/favicon.ico"/>
+    <link rel="stylesheet" href="css/reg.css"/>
+</head>
+<body>
+    <div class="main">
+        <form action method="post" id="regForm" name="regForm" autocomplete="off">
+            <table class="regTable">
+                <tbody>
+                    <tr><td><img src="img/regLogo.jpg" alt="#"/></td></tr>
+                    <tr>
+                        <th class="regLabel">手机号</th>
+                        <td><input type="text" class="regInputPhone" placeholder="请输入手机号"><span id="regP"></span></td>
+                    </tr>
+                    <tr><th class="regLabel">验证码</th><td><input type="text" class="regInputMa" placeholder="请输入验证码"/><span id="regM"></span></td><td class="yzmBox">RjKe</td></tr>
+                    <tr><th class="regLabel">创建密码</th><td><input type="password" class="regInputPw pw1" placeholder="6-20位字符组成，区分大小写"/><span id="regPW1"></span></td></tr>
+                    <tr><th class="regLabel">密码确认</th><td><input type="password" class="regInputPw pw2" placeholder="密码确认"/><span id="regPW2"></span></td></tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <div class="agreenLC">
+                                <input type="checkbox" checked class="vertPos"/>
+                                <span class="vertPos">同意</span>
+                                <a href="" class="vertPos" target="_blank">&nbsp;良仓服务条款</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr><th></th><td><input type="button" value="立即注册" class="regBtn"></td></tr>
+                    <tr><th></th><td><img src="img/regQQ.jpg" alt=""><a href="login.html" id="loginBtn">登陆良仓</a></td></tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/reg.js"></script>

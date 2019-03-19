@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:"冬青黑体",Arial;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+img{
+    border:none;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input{
+    outline: none;
+    resize: none;
+}
+#main{
+    width:1000px;
+    height:auto;
+    padding-bottom: 50px;
+    margin:0 auto;
+    .shoppingStep1{
+        width:100%;
+        color:#333;
+        vertical-align: middle;
+        padding:50px 0 10px 0;
+        height:32px;
+        text-align: center;
+        font-size:14px;
+        .item{
+            width:auto;
+            height:30px;
+            display: inline-block;
+            line-height: 30px;
+            .txt{
+                display: block;
+                width:135px;
+                height:20px;
+                color:#666;
+            }
+            .chk{
+                color:#6369b4;
+            }
+        }
+    }
+    #shoppingCarList{
+        width:100%;
+        color:#666;
+        margin-top:20px;
+        .carTab{
+            width:100%;
+            border-bottom:2px solid #ccc;
+            .txt1{
+               text-align: left;
+            }
+            tr{
+                th{
+                    border-bottom: 2px solid #ccc;
+                    padding:15px 5px;
+                    font-size:15px;
+                    font-weight: 300;
+                }
+                td{
+                    padding:15px 15px;
+                    text-align: center;
+                    vertical-align: top;
+                }
+                .chkbox{
+                    width:12px;
+                    height:12px;
+                    display: inline-block;
+                    margin-right:2px;
+                }
+                .imgcon{
+                    display: inline-block;
+                    width:70px;
+                    height:70px;
+                    vertical-align: top;
+                    img{
+                        width:100%;
+                    }
+                }
+                a{
+                    text-decoration: none;
+                    color:#878787;
+                    font-size: 14px;
+                }
+                p{
+                    font-size: 14px;
+                }
+                .txt1{
+                    text-align: left;
+                }
+                .opt{
+                    margin:0 -4px;
+                    width:20px;
+                    height:20px;
+                    display: inline-block;
+                    text-align: center;
+                    vertical-align: middle;
+                    font-weight: bold;
+                    line-height: 18px;
+                    cursor: pointer;
+                }
+                .num2{
+                    width:24px;
+                    height:18px;
+                    border:none;
+                    display: inline-block;
+                    text-align: center;
+                }
+                .blue{
+                    color:#6393b4;
+                }
+            }
+            .list2{
+                td{
+                    border-bottom: 1px solid #f0f0f0;
+                }
+            }
+        }
+    }
+    .shoppingStep1{
+        width:100%;
+        clear: both;
+        text-align: center;
+        padding:20px 0;
+        p{
+            .price{
+                color: #6393b4;
+                font-size: 18px;
+            }
+            .checkBtn{
+                display: inline-block;
+                width:168px;
+                height:30px;
+                color:#fff;
+                line-height: 30px;
+                vertical-align: middle;
+                text-align: center;
+                background-color: #7fa6c5;
+                margin-top:5px;
+                border:none;
+                cursor: pointer;
+            }
+        }
+        fieldset{
+            border:1px solid #ccc;
+            border-left:none;
+            border-right:none;
+            border-bottom:none;
+            font-size:14px;
+            color:#404040;
+            width:60px;
+            padding:0 54px;
+            display: inline-block;
+            margin-top:15px;
+        }
+        a{
+            color:#404040;
+            font-size:14px;
+        }
+    }
+}
